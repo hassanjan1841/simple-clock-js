@@ -1,0 +1,52 @@
+body {
+  /* background: linear-gradient(grey, silver); */
+}
+.container {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 100px;
+  box-shadow: inset 0 0 30px black;
+  /* background: url("https://i.pinimg.com/originals/41/61/a5/4161a5a8c5efe055519ae3ab505dc31a.png");
+  background-size: cover;
+  background-position: center; */
+}
+
+.seconds,
+.minutes,
+.hours {
+  position: absolute;
+  box-sizing: border-box;
+  left: 50%;
+  width: none;
+  border-radius: 15px;
+  transform-origin: bottom;
+}
+.seconds {
+  height: 48%;
+  top: 0%;
+  border: 2px solid black;
+}
+.minutes {
+  height: 38%;
+  top: 10%;
+  border: 3px solid black;
+}
+.hours {
+  top: 20%;
+  height: 28%;
+  border: 4px solid black;
+}
+.some-divs {
+  width: 100%;
+  /* min-height: 100vh; */
+}
+.some-divs:nth-child(2) {
+  position: sticky;
+  top: 0%;
+}
